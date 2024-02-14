@@ -8,9 +8,13 @@ const API_URL = "https://secrets-api.appbrewery.com";
 app.use(express.static("public"));
 
 app.get("/", async (req, res) => {
-  const response = await axios.get(`${API_URL}/random`);
-  const secret = response.data;
-  res.render("index.ejs", secret);
+  try {
+    const response = await axios.get(`${API_URL}/random`);
+    const secret = response.data;
+    res.render("index.ejs", secret);
+  } catch (error) {
+    console.log(error.response.data);
+  }
 });
 
 app.listen(port, () => {
