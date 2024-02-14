@@ -4,12 +4,10 @@ This project is a simple website developed using Node.js and EJS to display rand
 
 ## Installation
 
-To run this project locally, follow these steps:
+1. Clone the repository:
 
-1. Clone the repository to your local machine:
-
-```bash
-git clone <repository-url>
+    ```bash
+    git clone <repository-url>
     ```
 
 2. Navigate to the project directory:
@@ -26,20 +24,14 @@ git clone <repository-url>
 
 ## Usage
 
-Once you have installed the dependencies, you can start the server
-```bash
+1. Once you have installed the dependencies, you can start the server:
+
+   ```bash
     npm start
     ```
-The application will be accessible at ** http://localhost:3000**.
-
-## How it Works
-
-When a user hovers over the secrets image on the website, the application makes an API request to the AppBrewery Random API using Axios.
-The API responds with a random secret, which is displayed to the user.
-
+   
 ## Technologies Used
 
-Node.js
-EJS (Embedded JavaScript)
-Axios
-
+1. Node.js
+2. EJS (Embedded JavaScript)
+3. Axios
