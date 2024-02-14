@@ -14,6 +14,7 @@ app.get("/", async (req, res) => {
     res.render("index.ejs", secret);
   } catch (error) {
     console.log(error.response.data);
+    res.status(500);
   }
 });
 
