@@ -6,21 +6,21 @@ This project is a simple website developed using Node.js and EJS to display rand
 
 1. Clone the repository:
 
-    ```bash
-    git clone <repository-url>
-    ```
+   ```bash
+   git clone <repository-url>
+   ```
 
 2. Navigate to the project directory:
 
-    ```bash
-    cd <project-directory>
-    ```
+   ```bash
+   cd <project-directory>
+   ```
 
 3. Install dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 ## Usage
 
@@ -28,8 +28,8 @@ This project is a simple website developed using Node.js and EJS to display rand
 
    ```bash
     npm start
-    ```
-   
+   ```
+
 ## Technologies Used
 
 1. Node.js
